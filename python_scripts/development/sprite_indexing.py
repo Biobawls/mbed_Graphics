@@ -18,7 +18,7 @@ for ii in range(0, np.size(file_list)):
 #sprite_sheet = np.reshape(np.transpose(total_spritesheet), [np.size(total_spritesheet)])
 sprite_sheet = np.reshape(total_spritesheet, [np.size(total_spritesheet)])
 
-n_sprites = 172
+n_sprites = 346
 sprite_x = 16
 sprite_y = 16
 sprite_n = 256

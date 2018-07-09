@@ -1,4 +1,4 @@
-const uint8_t map007_struct::map[] = {161,159,160,159,160,161,161,161,161,161,161,161,8,8,8,
+const uint16_t map007_struct::map[] = {161,159,160,159,160,161,161,161,161,161,161,161,8,8,8,
 161,162,163,162,163,166,161,161,161,165,161,161,8,8,8,
 165,161,165,161,161,161,161,161,161,161,161,161,8,8,8,
 161,161,161,165,161,161,161,165,161,161,165,161,8,8,8,
@@ -46,7 +46,13 @@ const bool map007_struct::spawns[] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 
-const uint8_t map007_struct::npc_LUT[] = {2,3};
+const uint8_t map007_struct::npc_LUT[] = {3};
 const uint8_t map007_struct::npc_move[] = {1};
 const std::string map007_struct::npc_text[] = {"Hello"};
 const uint32_t map007_struct::npc_pos[] = {99};
+const uint8_t map007_struct::obj_LUT[] = {};
+const uint32_t map007_struct::obj_pos[] = {};
+const bool map007_struct::obj_colli[] = {};
+const uint8_t map007_struct::item_LUT[] = {};
+const uint32_t map007_struct::item_pos[] = {};
+const uint8_t map007_struct::item_in_list[] = {};

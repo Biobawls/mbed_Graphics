@@ -1,4 +1,4 @@
-const uint8_t map005_struct::map[] = {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+const uint16_t map005_struct::map[] = {8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,
 8,92,91,91,91,91,91,91,91,91,91,91,91,92,8,
 8,92,93,93,93,93,93,93,93,93,93,93,93,92,8,
 8,92,93,93,93,93,93,93,93,93,93,93,93,92,8,
@@ -50,3 +50,9 @@ const uint8_t map005_struct::npc_LUT[] = {};
 const uint8_t map005_struct::npc_move[] = {};
 const std::string map005_struct::npc_text[] = {};
 const uint32_t map005_struct::npc_pos[] = {};
+const uint8_t map005_struct::obj_LUT[] = {};
+const uint32_t map005_struct::obj_pos[] = {};
+const bool map005_struct::obj_colli[] = {};
+const uint8_t map005_struct::item_LUT[] = {};
+const uint32_t map005_struct::item_pos[] = {};
+const uint8_t map005_struct::item_in_list[] = {};

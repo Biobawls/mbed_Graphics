@@ -1,7 +1,15 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon July 03 00:00:00 2018
+
+@author: Biobawls
+"""
+
 import numpy as np
 #import matplotlib as mpl
 #mpl.use('TkAgg')
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import glob
 import sprites
 
@@ -25,7 +33,7 @@ disp_sprite_norm[:, :, 2] = disp_sprite[:, :, 2]/np.max(sprites.bb)
 
 np.savetxt('/home/pi/Documents/mbed_Graphics/output_spritesheet/spritesheet.out', total_spritesheet, delimiter=',',fmt='%i',newline=',\n')
 
-fig, ax = plt.subplots()
-cax = ax.imshow(disp_sprite_norm)
-
-plt.show()
+#fig, ax = plt.subplots()
+#cax = ax.imshow(disp_sprite_norm)
+#
+#plt.show()
