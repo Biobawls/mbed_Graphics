@@ -439,11 +439,11 @@ def output_map_CPP_v1(map_name_in, map_x_in, map_y_in, map_array_in, collision_a
     ###############################################################################
     # Save the files
     ###############################################################################
-    f_h = open("/home/pi/Documents/mbed_Graphics/output_maps/" + map_name_in + ".h", mode="w")
+    f_h = open(os.environ['PATH_FROG']+"/trunk/output_maps/" + map_name_in + ".h", mode="w")
     f_h.write(h_file_text)
     f_h.close()
     
-    f_cpp = open("/home/pi/Documents/mbed_Graphics/output_maps/" + map_name_in + ".cpp", mode="w")
+    f_cpp = open(os.environ['PATH_FROG']+"/trunk/output_maps/" + map_name_in + ".cpp", mode="w")
     f_cpp.write(cpp_file_text)
     f_cpp.close()
     
